@@ -44,29 +44,26 @@
     /* background: rgba(230, 153, 153, 0.79); */
 }
 
-.description {
+.description{
     position: absolute;
     top: 30%;
+    right:20%;
     margin: auto;
     padding: 2em;
-
+    
 }
-
-.description h1 {
-    color: #F97300;
+.description h1{
+ color:#ac1c09 ;
 }
-
-.description p {
-    color: rgb(243, 157, 157);
-    font-size: 20px;
-    width: 50%;
-    line-height: 1.5;
+.description p{
+ color:rgb(241, 245, 24);
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
 }
-
-.description button {
-    border: 1px solid #F97300;
-    background: #F97300;
-    color: #fff;
+.description button{
+ border:1px  solid #F97300;
+ color:#fff;
 }
 
 /* About section */
@@ -109,3 +106,60 @@
 }
 
 /* Pricing section */
+
+
+/* Styling for Signup form */
+
+.border-md {
+    border-width: 2px;
+}
+
+.btn-facebook {
+    background: #405D9D;
+    border: none;
+}
+
+.btn-facebook:hover, .btn-facebook:focus {
+    background: #314879;
+}
+
+.btn-twitter {
+    background: #42AEEC;
+    border: none;
+}
+
+.btn-twitter:hover, .btn-twitter:focus {
+    background: #1799e4;
+}
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+body {
+    min-height: 100vh;
+}
+
+.form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+
+select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.form-control:focus {
+    box-shadow: none;
+}
